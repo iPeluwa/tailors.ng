@@ -233,8 +233,8 @@ u + .em_body .em_full_wrap {
         $mail->Host = "smtp.gmail.com";      // sets GMAIL as the SMTP server
         $mail->Port = 465;                   // set the SMTP port for the GMAIL server
 
-        $mail->Username = 'ipeluwa@gmail.com';
-        $mail->Password = 'luway2012@@';
+        $mail->Username = '';
+        $mail->Password = '';
 
         $mail->SetFrom('noreply@tailors.ng', 'Tailor.ng');
         $mail->AddAddress($email);
